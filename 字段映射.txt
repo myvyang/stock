@@ -1,0 +1,39 @@
+
+
+{
+  "OPERATE_INCOME": "营业收入",
+  "GROSS_PROFIT": "毛利",
+  "HOLDER_PROFIT": "归属于母公司股东的净利润",
+  "TOTAL_ASSETS": "总资产",
+  "TOTAL_LIABILITIES": "总负债",
+  "TOTAL_PARENT_EQUITY": "归属于母公司股东权益",
+  "ISSUED_COMMON_SHARES": "已发行普通股数量",
+  "OPERATE_PROFIT": "营业利润",
+  "PRETAX_PROFIT": "利润总额",
+  "NETCASH_OPERATE": "经营活动产生的现金流量净额",
+  "NETCASH_INVEST": "投资活动产生的现金流量净额",
+  "NETCASH_FINANCE": "筹资活动产生的现金流量净额",
+  "END_CASH": "期末现金及现金等价物余额",
+  "DIVIDEND_RATE": "股息率",
+  "PE_TTM": "市盈率（TTM）",
+  "PB_TTM": "市净率（TTM）",
+}
+
+核心指标
+
+1. 市盈率
+2. 毛利率
+3. 市值
+4. 算一下现金
+5. 利润和营收增长
+
+
+ISSUED_COMMON_SHARES * 当前价格 = 市值.
+
+获取当前股价
+
+https://push2his.eastmoney.com/api/qt/stock/trends2/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf11%2Cf12%2Cf13&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58&ut=fa5fd1943c7b386f172d6893dbfba10b&iscr=0&ndays=5&secid=116.{ticker}&_=1623766962675
+
+DATE_TYPE_CODE
+  001 年报
+  002 年中报
